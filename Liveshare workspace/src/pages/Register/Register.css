@@ -1,0 +1,298 @@
+
+.h3h3 {
+    padding-left: 50px;
+    margin-bottom: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 35px;
+    color: #00FFA9;
+}
+
+input::placeholder {
+    color: #c9d1cc;
+}
+
+
+.h1h1 {
+    width: 80%;
+
+    border-bottom: 3px solid #00FFA9;
+    border-radius: 3px;
+    line-height: 0.5px;
+    margin: 45px 45px 10px;
+
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.span5 {
+    color: #00FFA9;
+}
+
+.h1h1 span {
+    background: #2E3631;
+    padding: 0 10px;
+}
+
+
+.inputfield2 {
+    box-sizing: border-box;
+
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin: auto;   
+    padding-left: 50px;
+
+    border: 1px solid #00FFA9;
+    border-radius: 10px;
+    background-color: transparent;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #c9d1cc;
+}
+
+
+
+
+.signUp {
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 8.5%;
+    background: #2E3631;
+    box-shadow: 0px 0px 15px #00FFA9;
+    border-radius: 35px;
+}
+
+.APIbox {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 8.5%;
+    background: #2E3631;
+    box-shadow: 0px 0px 15px #00FFA9;
+    border-radius: 35px;
+}
+
+.slant {
+    width: 12px;
+    height: 100px;
+    background-color: #2E3631;
+    position: absolute;
+    border-radius: 10px;
+    
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    transform: skew(-25deg);
+
+    box-shadow: 0px 0px 15px #00FFA9;
+}
+
+
+#tagline {
+    padding-left: 50px;
+    margin-top: 0.5em;
+    margin-bottom: 3em;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #00AD73;
+}
+
+
+
+.signUpBtn {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%);
+
+    border: 1px solid #00FFA9;
+    border-radius: 25px;
+    background-color: transparent;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #c9d1cc;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.input-icons i {
+    position: absolute;
+    color: #c9d1cc;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-top: -3px;
+    margin-left: -10px;
+    width: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+.signUpApi {
+    box-sizing: border-box;
+
+    position: absolute;
+    display: block;
+    width: 82%;
+    height: 35px;
+
+    left: 50%;
+    padding-left: 50px;
+    transform: translate(-50%);
+
+    border: 1px solid #00FFA9;
+    border-radius: 10px;
+    background-color: transparent;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 2px;
+    color: #c9d1cc;
+    cursor: pointer;
+    outline: none;
+}
+
+#googleApi {
+    margin-top: 20px;
+}
+
+#appleApi {
+    margin-top: 50px;
+}
+
+.btn-icons i {
+   position: absolute;
+   color: #c9d1cc;
+}
+
+.btn-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn_Icon {
+    margin-top: 29px;
+    margin-left: 65px;
+    width: 25px;
+    text-align: left;
+}
+
+#appleIcon {
+    margin-top: 59px;
+    font-weight: 900;
+}
+
+
+
+.signUpBtn:hover, .signUpApi:hover {
+    box-shadow: 0px 0px 20px #00FFA9;
+    transition: 0.5s;
+}
+
+.signUpBtn:active, .signUpApi:active {
+    box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.1);
+    transition: 0.1s;
+}
+
+.logins{
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+left: 230px;
+bottom: 50px;
+text-decoration: underline;
+}
+
+@media (max-width: 1210px) {
+    .signUp {  
+        width: 450px;
+        height: 550px;
+
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -15%);
+    }
+
+    .APIbox {
+        width: 450px;
+        height: 200px;
+
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -75%);
+    }
+
+    .input-field {
+        width: 350px;
+    }
+
+    #tagline {
+        margin-bottom: 30px;
+    }
+
+
+    #googleApi {
+        margin-top: 15px;
+    }
+
+    #appleApi {
+        margin-top: 35px;
+    }
+
+    .btn_Icon {
+        margin-top: 25px;
+        margin-left: 57px;
+    }
+
+    #appleIcon {
+        margin-top: 45px;
+    }
+
+    .slant {
+        display: none;
+    }
+
+    .h1h1{
+        font-size: 25px;
+    }
+
+
+}
